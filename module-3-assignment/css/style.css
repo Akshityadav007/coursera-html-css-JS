@@ -1,0 +1,102 @@
+body{
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+   
+
+
+}
+
+#header-nav {
+    background-color: #b9a91f;
+    border-radius: 0;
+    border: 1px;
+    border-style: ridge;
+    border-color:black;
+
+  }
+
+
+ 
+  .navbar-default {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+  } 
+
+  .navbar-default h1{ 
+    font-family: 'Lora', serif;
+    color: rgb(128, 8, 108);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: #951C49;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.2em;
+    font-weight:bold;
+  }
+  .text-center{
+      font-size: 30px;
+  }
+
+  .title section{
+    font-size: 20px;
+    font-weight: bold;
+}
+#title{
+    margin:5px 0px 5%;
+}
+
+.box .title {
+margin: 10px 0px 20px;
+}
+
+
+
+.box{
+    background-color:#b9a91f;
+    margin: 0px 2% 2% 2%;
+    border-radius: 10%;
+}
+
+.item-detail{
+    font-size:105%;
+    padding: 1% 3% 2% 3%;
+}
+
+@media (max-width:768px){
+    .navbar-default h1 {
+        font-size:150%;
+    }
+  
+    .title{
+        font-size: 25px;
+    }
+  
+    .title section{
+        font-size: 20px;
+    }
+  
+    .box{
+        border-radius: 5%;
+    }
+
+    .item-detail{
+        font-size: 95%;
+        padding: 1% 3% 3% 3%;
+    }
+  
+  }
+
+
+
