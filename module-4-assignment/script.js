@@ -1,4 +1,4 @@
-// ******************************* 
+// *******************************
 // START HERE IF YOU WANT AN EASIER STARTING POINT FOR THIS ASSIGNMENT
 // *******************************
 //
@@ -29,17 +29,26 @@ WARNING!!! WARNING!!!
 
 */
 
-(function (window) {
-  var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
- //console.log(names[9]);
-  for (var i = 0; i < names.length; i++) {
-    var firstLetter = names[i].charAt(0);
+;(function (window) {
+  var names = [
+    'Yadav',
+    'John',
+    'Jena',
+    'Jasson',
+    'Paul',
+    'Frank',
+    'Larry',
+    'Paula',
+    'Laura',
+    'Jim',
+  ]
+  //console.log(names[9]);
+  for (var k = 0; k < names.length; k++) {
+    var firstLetter = names[k].charAt(0)
     if (firstLetter === 'j' || firstLetter === 'J') {
-      byeSpeaker.speak(names[i]);
+      byeSpeaker.speak(names[k])
     } else {
-      helloSpeaker.speak(names[i]);
+      helloSpeaker.speak(names[k])
     }
   }
-
-})(window);
-
+})(window)
